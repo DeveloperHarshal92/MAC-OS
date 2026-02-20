@@ -41,14 +41,17 @@
 
       .red {
         background-color: crimson;
+        cursor: pointer;
       }
 
       .yellow {
         background-color: gold;
+        cursor: pointer;
       }
 
       .green {
         background-color: lightgreen;
+        cursor: pointer;
       }
     }
 
@@ -67,5 +70,14 @@
     height: 100%;
     padding-inline: 0.75rem;
     padding-block: 0.5rem;
+  }
+
+  *::-webkit-scrollbar{
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-thumb{
+    background-color: #333;
+    border-radius: 4px;
   }
 }
